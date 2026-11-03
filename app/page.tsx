@@ -77,7 +77,9 @@ export default function Home() {
                 {t("hero.titlePre")} <span
                 className="text-gradient"
                 style={{
-                  color: "#22c55e"
+                  color: "#f59e0b",
+                  backgroundColor: "#06b6d4",
+                  fontSize: "64px"
                 }}>{t("hero.titleAccent")}</span>{" "}
                 {t("hero.titlePost")}
               </h1>
