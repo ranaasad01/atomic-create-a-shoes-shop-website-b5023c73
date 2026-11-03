@@ -138,7 +138,13 @@ export default function Home() {
                     <h3 className="mt-5 text-lg font-semibold tracking-tight text-foreground">
                       {item.title}
                     </h3>
-                    <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                    <p
+                      className="mt-2 text-sm leading-relaxed text-muted-foreground"
+                      style={i === 0 ? {
+                        color: "#f59e0b",
+                        backgroundColor: "#06b6d4",
+                        fontSize: "12px"
+                      } : undefined}>
                       {item.description}
                     </p>
                   </div>
