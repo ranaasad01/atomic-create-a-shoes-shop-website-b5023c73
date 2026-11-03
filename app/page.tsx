@@ -79,7 +79,7 @@ export default function Home() {
                 style={{
                   color: "#f59e0b",
                   backgroundColor: "#06b6d4",
-                  fontSize: "12px"
+                  fontSize: "64px"
                 }}>{t("hero.titleAccent")}</span>{" "}
                 {t("hero.titlePost")}
               </h1>
