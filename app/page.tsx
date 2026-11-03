@@ -83,7 +83,13 @@ export default function Home() {
                 }}>{t("hero.titleAccent")}</span>{" "}
                 {t("hero.titlePost")}
               </h1>
-              <p className="mt-6 max-w-lg text-pretty text-lg leading-relaxed text-muted-foreground">
+              <p
+                className="mt-6 max-w-lg text-pretty text-lg leading-relaxed text-muted-foreground"
+                style={{
+                  color: "#f59e0b",
+                  backgroundColor: "#06b6d4",
+                  fontSize: "64px"
+                }}>
                 {t("hero.subtitle")}
               </p>
               <div className="mt-10 flex flex-wrap items-center gap-4">
